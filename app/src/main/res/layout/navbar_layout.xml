@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navbarContainer"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/navyblue"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp">
+
+    <ImageButton
+        android:id="@+id/navHomeButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Accueil"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/navCharactersButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Personnages"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_characters" />
+
+    <ImageButton
+        android:id="@+id/navObjectsButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Objets"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_objects" />
+
+    <ImageButton
+        android:id="@+id/navPlacesButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Lieux"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_places" />
+
+    <ImageButton
+        android:id="@+id/navMoviesButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Films"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_movies" />
+
+    <ImageButton
+        android:id="@+id/navQuizButton"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Quiz"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_quiz" />
+
+
+</LinearLayout>

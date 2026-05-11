@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.QuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Police par défaut pour tous les TextView -->
+        <item name="android:fontFamily">@font/marvel_font</item>
+    </style>
+</resources>
