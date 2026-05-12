@@ -11,7 +11,7 @@ object ObjectsData {
                 imageResId = R.drawable.mjolnir,
                 movies = listOf(
                     R.drawable.poster_thor,
-                    R.drawable.poster_avengers
+                    R.drawable.poster_avengers_1
                 ),
                 gallery = listOf(
                     R.drawable.gallery_mjolnir_1,
@@ -32,7 +32,7 @@ object ObjectsData {
                 imageResId = R.drawable.shield,
                 movies = listOf(
                     R.drawable.poster_captain_america,
-                    R.drawable.poster_avengers
+                    R.drawable.poster_avengers_1
                 ),
                 gallery = listOf(
                     R.drawable.gallery_shield_1,

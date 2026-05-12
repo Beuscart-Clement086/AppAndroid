@@ -3,6 +3,7 @@ package com.example.quizapp
 import android.app.Dialog
 import android.os.Bundle
 import android.view.Window
+import android.widget.GridLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 
@@ -35,10 +36,15 @@ class CharacterDetailActivity : BaseActivity() {
         }
 
         // Galerie
-        val galleryContainer = findViewById<LinearLayout>(R.id.galleryContainer)
-        character.gallery.forEach { resId ->
+        val galleryContainer = findViewById<GridLayout>(R.id.galleryContainer)
+        character.gallery.forEach { resId ->  // ou obj.gallery pour les objets
+            val size = (resources.displayMetrics.widthPixels - 48) / 3
             val img = ImageView(this).apply {
-                layoutParams = LinearLayout.LayoutParams(200, 200).also { it.marginEnd = 12 }
+                layoutParams = GridLayout.LayoutParams().apply {
+                    width = size
+                    height = size
+                    setMargins(4, 4, 4, 4)
+                }
                 setImageResource(resId)
                 scaleType = ImageView.ScaleType.CENTER_CROP
                 setOnClickListener { showImageDialog(resId) }

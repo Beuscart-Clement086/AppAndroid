@@ -74,17 +74,17 @@ class QuizActivity : BaseActivity() {
         llQuizContainer.visibility = View.VISIBLE
         tvTitle.text = "Quiz - $difficulty"
 
-        currentCategory = QuizData.getCategoryByName(difficulty) ?: return
+        // Récupère la catégorie correspondante
+        val category = QuizData.getCategoryByName(difficulty) ?: return
+
+        // Mélange les questions et en sélectionne 10
+        shuffledQuestions = category.questions.shuffled().take(10)
+
         currentQuestionIndex = 0
         score = 0
         selectedAnswerIndex = -1
 
-
-        shuffledQuestions = currentCategory.questions.shuffled()
-
-
         updateScoreAndCounter()
-
         showQuestion(shuffledQuestions[currentQuestionIndex])
     }
 
