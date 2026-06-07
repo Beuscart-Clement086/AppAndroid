@@ -1,5 +1,6 @@
 package com.example.quizapp
 
+import androidx.appcompat.app.AppCompatActivity
 import android.app.Dialog
 import android.os.Bundle
 import android.view.Window
