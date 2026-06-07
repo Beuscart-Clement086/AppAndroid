@@ -26,8 +26,10 @@
         <activity android:name=".ObjectsActivity" />
         <activity android:name=".ObjectDetailActivity" />
         <activity android:name=".PlacesActivity" />
-        <activity android:name=".QuizActivity" />
         <activity android:name=".MoviesActivity"/>
+        <activity android:name=".MovieDetailActivity" />
+        <activity android:name=".QuizActivity" />
+
 
         <service android:name=".MusicService" />
 

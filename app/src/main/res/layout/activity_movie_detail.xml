@@ -119,7 +119,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Navbar en bas -->
     <include
         android:id="@+id/navbarContainer"
         layout="@layout/navbar_layout" />
