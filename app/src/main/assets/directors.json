@@ -1,0 +1,72 @@
+[
+  {
+    "prenom": "Jon",
+    "nom": "Favreau",
+    "dateNaissance": "19 octobre 1966",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Louis",
+    "nom": "Leterrier",
+    "dateNaissance": "17 juin 1973",
+    "dateDeces": "",
+    "nationalite": "Française"
+  },
+  {
+    "prenom": "Kenneth",
+    "nom": "Branagh",
+    "dateNaissance": "10 décembre 1960",
+    "dateDeces": "",
+    "nationalite": "Britannique"
+  },
+  {
+    "prenom": "Joe",
+    "nom": "Johnston",
+    "dateNaissance": "13 mai 1950",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Joss",
+    "nom": "Whedon",
+    "dateNaissance": "23 juin 1964",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Shane",
+    "nom": "Black",
+    "dateNaissance": "16 décembre 1961",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Alan",
+    "nom": "Taylor",
+    "dateNaissance": "1959",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Anthony et Joe",
+    "nom": "Russo",
+    "dateNaissance": "1970 et 1971",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "James",
+    "nom": "Gunn",
+    "dateNaissance": "5 août 1966",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  },
+  {
+    "prenom": "Peyton",
+    "nom": "Reed",
+    "dateNaissance": "3 juillet 1964",
+    "dateDeces": "",
+    "nationalite": "Américaine"
+  }
+]
