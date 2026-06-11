@@ -23,11 +23,17 @@
 
         <activity android:name=".CharactersActivity" />
         <activity android:name=".CharacterDetailActivity" />
+        <activity android:name=".CharacterAddEditActivity" />
         <activity android:name=".ObjectsActivity" />
         <activity android:name=".ObjectDetailActivity" />
+        <activity android:name=".ObjectAddEditActivity" />
         <activity android:name=".PlacesActivity" />
+        <activity android:name=".RealisateursActivity" />
+        <activity android:name=".RealisateurDetailActivity" />
+        <activity android:name=".RealisateurAddEditActivity" />
         <activity android:name=".MoviesActivity"/>
         <activity android:name=".MovieDetailActivity" />
+        <activity android:name=".MovieAddEditActivity" />
         <activity android:name=".QuizActivity" />
 
 

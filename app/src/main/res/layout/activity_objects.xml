@@ -15,6 +15,14 @@
         android:layout_gravity="center"
         android:padding="16dp" />
 
+    <Button
+        android:id="@+id/btnAddObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:text="+ Ajouter un objet" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/objectsRecyclerView"
         android:layout_width="match_parent"

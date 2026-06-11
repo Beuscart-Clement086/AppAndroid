@@ -47,16 +47,16 @@
         android:src="@drawable/ic_objects" />
 
     <ImageButton
-        android:id="@+id/navPlacesButton"
+        android:id="@+id/navRealisateursButton"
         android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_weight="1"
         android:adjustViewBounds="true"
         android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="Lieux"
+        android:contentDescription="Réalisateurs"
         android:padding="12dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_places" />
+        android:src="@drawable/ic_realisateurs" />
 
     <ImageButton
         android:id="@+id/navMoviesButton"

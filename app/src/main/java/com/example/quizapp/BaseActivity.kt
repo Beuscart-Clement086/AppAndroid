@@ -47,9 +47,9 @@ open class BaseActivity : AppCompatActivity() {
             }
         }
 
-        navbarBinding.navPlacesButton.setOnClickListener {
-            if (this !is PlacesActivity) {
-                startActivity(Intent(this, PlacesActivity::class.java))
+        navbarBinding.navRealisateursButton.setOnClickListener {
+            if (this !is RealisateursActivity) {
+                startActivity(Intent(this, RealisateursActivity::class.java))
                 finish()
             }
         }

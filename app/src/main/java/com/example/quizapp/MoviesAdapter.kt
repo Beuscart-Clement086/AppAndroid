@@ -32,7 +32,7 @@ class MoviesAdapter(private val movies: List<Movies>) :
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, MovieDetailActivity::class.java).apply {
-                putExtra("MOVIE_NAME", movie.name)
+                putExtra("MOVIE_ID", movie.id)
             }
             context.startActivity(intent)
         }

@@ -25,14 +25,14 @@ class CharacterAdapter(private val characters: List<Character>) :
 
     override fun onBindViewHolder(holder: CharacterViewHolder, position: Int) {
         val character = characters[position]
-        holder.imageView.setImageResource(character.imageResId)
+        holder.imageView.loadEntityImage(character.imageUri, character.imageResId)
         holder.nameTextView.text = character.name
         holder.descriptionTextView.text = character.description
 
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, CharacterDetailActivity::class.java).apply {
-                putExtra("CHARACTER_NAME", character.name)  // passer le nom
+                putExtra("CHARACTER_ID", character.id)  // passer l'id SQLite
             }
             context.startActivity(intent)
         }

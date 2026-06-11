@@ -26,14 +26,14 @@ class ObjectAdapter(private val objects: List<MarvelObject>) :
 
     override fun onBindViewHolder(holder: ObjectViewHolder, position: Int) {
         val obj = objects[position]
-        holder.imageView.setImageResource(obj.imageResId)
+        holder.imageView.loadEntityImage(obj.imageUri, obj.imageResId)
         holder.nameTextView.text = obj.name
         holder.descriptionTextView.text = obj.description
 
         holder.itemView.setOnClickListener {
             val context = holder.itemView.context
             val intent = Intent(context, ObjectDetailActivity::class.java).apply {
-                putExtra("OBJECT_INDEX", position)
+                putExtra("OBJECT_ID", obj.id)
             }
             context.startActivity(intent)
         }
