@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mjolnir",
+    "fullName": "Mjolnir, le marteau de Thor",
+    "description": "Marteau magique d'Asgard",
+    "bio": "Mjolnir est le marteau légendaire forgé par les nains d'Asgard. Il ne peut être manié que par celui qui en est digne. Thor l'utilise pour contrôler la foudre et voler.",
+    "image": "mjolnir",
+    "movies": ["poster_thor", "poster_avengers_1"],
+    "gallery": ["gallery_mjolnir_1", "gallery_mjolnir_2", "gallery_mjolnir_3", "gallery_mjolnir_4", "gallery_mjolnir_5", "gallery_mjolnir_6", "gallery_mjolnir_7", "gallery_mjolnir_8"]
+  },
+  {
+    "name": "Bouclier Captain America",
+    "fullName": "Bouclier en Vibranium",
+    "description": "Bouclier indestructible en Vibranium",
+    "bio": "Le bouclier de Captain America est fabriqué en Vibranium, le métal le plus résistant au monde. Il peut absorber et rediriger toute forme d'énergie cinétique.",
+    "image": "shield",
+    "movies": ["poster_captain_america", "poster_avengers_1"],
+    "gallery": ["gallery_shield_1", "gallery_shield_2"]
+  }
+]
