@@ -39,7 +39,7 @@ object MoviesData {
                 gallery = listOf(
                     R.drawable.gallery_iron_man_1,
                     R.drawable.gallery_iron_man_2,
-                    R.drawable.gallery_iron_man_3
+                    R.drawable.gallery_iron_man_3,
                 )
             ),
             Movies(
